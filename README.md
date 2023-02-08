@@ -1,7 +1,7 @@
 # Nearby_Star_Catalog
 This catalog contains 2575 stars within 20 parsecs from the Earth, mainly based on the Gaia Catalog of Nearby Stars (GCNS), with more completed parameters including stellar luminosity, effective temperature, radius, and mass. Following are descriptions for columns in the NSC & Habitable Zone results.
 
-# 1. Descriptions for the NSC_20pc.csv
+# 1. Descriptions for NSC_20pc.csv
 
 Num: Serial number of stars in the NSC, 1\~2575;\
 type: I: Teff & G-band magnitude are known; II: only G-band magnitude is known; III: only Teff is known; IV: Teff & G-band magnitude are unknown;\
@@ -12,16 +12,15 @@ GAIAmag: G-band magnitude;\
 e_GAIAmag: error of G-band magnitude;\
 pmRA: proper motion in RA direction;\
 pmDEC: proper motion in DEC direction;\
-e_pmRA:\
-e_pmDEC:\
-MASS&massSrc:\
-RAD&radSrc:\
-TEFF&TeffSrc:\
-MH&mhSrc:\
-LOGG&loggSrc:\
-lum:\
-e_lum:\
-lumclass:\
+e_pmRA: error in proper motion in RA direction;\
+e_pmDEC: error in proper motion in DEC direction;\
+MASS&massSrc: stellar mass (in Msun) of the star and the source of it;\
+RAD&radSrc: stellar radius (in Rsun) of the star and the source of it;\
+TEFF&TeffSrc: stellar effective temperature (in Kelvin) of the star and the source of it;\
+MH&mhSrc: stellar metallicity (M[H]) of the star and the source of it;\
+LOGG&loggSrc: surface gravity (in log scale) of the star and the source of it;\
+lum: stellar luminosity (in Lsun) of the star;\
+e_lum: error in stellar luminosity (in Lsun) of the star;\
 Tmag: T-band magnitude, from TIC catalog;\
 e_Tmag: error in Tmag;\
 Bmag~e_w4mag: magnitudes in various bands. Note that 'gmag' in these columns are not Gaia magnitudes;\
@@ -41,8 +40,8 @@ gaiabp: Gaia Bp magnitude;\
 e_gaiabp: error in Gaia Bp magnitude;\
 gaiarp: Gaia Rp magnitude;\
 e_gaiarp: error in Gaia Rp magnitude;\
-_RAJ2000: right ascension, in J2000.0, sexa;\
-_DEJ2000: declination, in J2000.0, sexa;\
+\_RAJ2000: right ascension, in J2000.0, sexa;\
+\_DEJ2000: declination, in J2000.0, sexa;\
 FG: G-band mean flux;\
 e_FG: error in G-band mean flux;\
 FBP: mean flux in the integrated Bp band;\
