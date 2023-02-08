@@ -3,7 +3,7 @@ This catalog contains 2575 stars within 20 parsecs from the Earth, mainly based 
 
 # 1. Descriptions for the NSC_20pc.csv
 
-Num: Serial number of stars in the NSC, 1~2575;\
+Num: Serial number of stars in the NSC, 1\~2575;\
 type: I: Teff & G-band magnitude are known; II: only G-band magnitude is known; III: only Teff is known; IV: Teff & G-band magnitude are unknown;\
 ra & dec: coordinates, mainly at Ep=2015.0/2016.0 (from Gaia DR2 & DR3);\
 plx: parallax of stars, in mas;\
