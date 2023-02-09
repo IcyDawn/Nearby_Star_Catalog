@@ -54,7 +54,7 @@ e_RV: error in radial velocity;\
 PM: total proper motion of the star;\
 RAJ2000: right ascension, in J2000.0, in deg;\
 DEJ2000: declination, in J2000.0, in deg;\
-AG: Estimate of extinction in the G band from Apsis-Priam; (for details of Apsis-Priam: see https://arxiv.org/pdf/1804.09365.pdf)\
+AG: Estimate of extinction in the G band from Apsis-Priam; (for details of Apsis-Priam: see https://arxiv.org/pdf/1804.09365.pdf) \
 E(BP-RP): Estimate of redenning E(BP-RP) from Apsis-Priam;\
 B-V: the B-V colour index;\
 PS1: object identifier of the Pan-STARRS release 1 (PS1) Survey - DR1;\
