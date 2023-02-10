@@ -71,7 +71,7 @@ ALLWISE: object identifier of ALLWISE;\
 APASS: object identifier of the AAVSO Photometric All-Sky Survey;\
 KIC: object identifier of the Kepler Input Catalog.
 
-# 2. Descriptions for Habitable Zone Results
+# 2. Descriptions for Habitable_Zone_Results.csv
 
 dis: distance (pc);\
 teff: effective temperature (K);\
