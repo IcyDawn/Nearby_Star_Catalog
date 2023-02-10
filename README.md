@@ -73,4 +73,45 @@ KIC: object identifier of \
 
 # 2. Descriptions for Habitable Zone Results
 
+dis: distance(pc)\
+teff: effective temperature（K）\
+lum: luminosity（L_Sun）\
+mass: mass（M_Sun）\
+rad: radius（R_Sun）\
+
+mas_IHZ: inner bound of habitable zone（mas）\
+mas_OHZ: outer bound of habitable zone（mas）\
+AU_IHZ: inner bound of HZ（AU）\
+AU_OHZ: outer bound of HZ（AU）	\
+TRp_IHZ: transit rate for planets at inner bound of HZ \
+TRp_OHZ: transit rate for planets at outer bound of HZ \
+TRt_IHZ: transit duration for planets at inner bound of HZ（hour）\
+TRt_OHZ: transit duration for planets at outer bound of HZ（hour）\
+TRD: transit depth\
+Ast_max_IHZ: maximum stellar amplitude for planets at inner bound of HZ（μas）\
+Ast_max_OHZ: maximum stellar amplitude for planets at outer bound of HZ（μas）\
+RV_max_IHZ: maximum stellar radial velocity for planets at inner bound of HZ（m/s）\
+RV_max_OHZ: maximum stellar radial velocity for planets at outer bound of HZ（m/s）\
+RV_E_IHZ: stellar radial velocity expectation for planets at inner bound of HZ（m/s）\
+RV_E_OHZ: stellar radial velocity expectation for planets at outer bound of HZ（m/s）\
+BR_IR_IHZ: blackbody radiation ratio of planet to star for planets at inner bound of HZ @10μm band\
+BR__IR_OHZ: blackbody radiation ratio of planet to star for planets at outer bound of HZ @10μm band\
+RR_IHZ:: radiation ratio of planet to star for planets at inner bound of HZ \
+RR_OHZ: ratio of planet to star for planets at outer bound of HZ\
+MDTV_IHZ: the aperture diameter requirements for planets at inner bound of HZ @550nm（m）\
+MDTV_OHZ: the aperture diameter requirements for planets at inner bound of HZ @550nm（m）\
+MDTIR_IHZ: the aperture diameter requirements for planets at inner bound of HZ @10μm（m）\
+MDTIR_OHZ: the aperture diameter requirements for planets at outer bound of HZ @10μm（m）\
+
+Following parameters are for planets at the center of HZ:	\
+
+Detect_TR: detect possibility via transit method（Transit depth＞30ppm @Vmag=7）\
+Detect_RV: detect possibility via RV method（stellar radial velocity >0.2m/s @Vmag=8）\
+
+500nm: radiation ratio of planet to star@500nm band\
+4000nm: radiation ratio of planet to star@4000nm band\
+7500nm: radiation ratio of planet to star@7500nm band\
+11000nm:	radiation ratio of planet to star@11000nm band\
+tmag: TESS magnitude\
+RVE: stellar radial velocity expectation（m/s）\
 
