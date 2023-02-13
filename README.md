@@ -1,5 +1,5 @@
 # Nearby_Star_Catalog
-This catalog contains 2575 stars within 20 parsecs from the Earth, mainly based on the Gaia Catalog of Nearby Stars (GCNS), with more completed parameters including stellar luminosity, effective temperature, radius, and mass. Following are descriptions for columns in the NSC & Habitable Zone results.
+This catalog contains 2575 stars within 20 parsecs from the Earth, mainly based on the Gaia Catalog of Nearby Stars (GCNS, see J/A+A/649/A6 on Vizier), with more completed parameters including stellar luminosity, effective temperature, radius, and mass. Following are descriptions for columns in the NSC & Habitable Zone results. 
 
 # 1. Descriptions for NSC_20pc.csv
 
@@ -87,15 +87,15 @@ TRp_IHZ: transit rate for planets at inner bound of HZ;\
 TRp_OHZ: transit rate for planets at outer bound of HZ;\
 TRt_IHZ: transit duration for planets at inner bound of HZ(hour);\
 TRt_OHZ: transit duration for planets at outer bound of HZ(hour);\
-TRD: transit depth\
+TRD: transit depth;\
 Ast_max_IHZ: maximum stellar amplitude for planets at inner bound of HZ(μas);\
 Ast_max_OHZ: maximum stellar amplitude for planets at outer bound of HZ(μas);\
 RV_max_IHZ: maximum stellar radial velocity for planets at inner bound of HZ(m/s);\
 RV_max_OHZ: maximum stellar radial velocity for planets at outer bound of HZ(m/s);\
-RV_E_IHZ: stellar radial velocity expectation for planets at inner bound of HZ(m/s);\
-RV_E_OHZ: stellar radial velocity expectation for planets at outer bound of HZ(m/s);\
+RV_E_IHZ: stellar radial velocity expectation (<sin i>=pi/4) for planets at inner bound of HZ(m/s);\
+RV_E_OHZ: stellar radial velocity expectation (<sin i>=pi/4) for planets at outer bound of HZ(m/s);\
 BR_IR_IHZ: blackbody radiation ratio of planet to star for planets at inner bound of HZ @10μm band;\
-BR__IR_OHZ: blackbody radiation ratio of planet to star for planets at outer bound of HZ @10μm band;\
+BR_IR_OHZ: blackbody radiation ratio of planet to star for planets at outer bound of HZ @10μm band;\
 RR_IHZ:: radiation ratio of planet to star for planets at inner bound of HZ;\
 RR_OHZ: ratio of planet to star for planets at outer bound of HZ;\
 MDTV_IHZ: the aperture diameter requirements for planets at inner bound of HZ @550nm(m);\
