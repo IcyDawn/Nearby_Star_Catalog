@@ -4,10 +4,18 @@ This catalog contains 2575 stars within 20 parsecs from the Earth, mainly based 
 # 1. Descriptions for NSC_20pc.csv
 
 Num: Serial number of stars in the NSC, 1\~2575;\
+da: The time-averaged projection of the binary's separation, estimated by Penoyre et al. 2022;\
+RUWE: The Renormalised Unit Weight Error (RUWE) is the Gaia data product which corresponds to the UWE (the reduced chi-squared of the best fitting 5-parameter singlebody astrometric solution).\
+IHZ: Estimated semi-major axis of the inner habitable zone;\
+OHZ: Estimated semi-major axis of the outer habitable zone;\
+f_STB: The probability of a binary system to have a stable and habitable planet;\
+a_STB: Expected semi-major axis of the habitable and stable planet's orbit;\
+a_STB_I: The lower limit of the expected semi-major axis of the habitable and stable planet's orbit;\
+a_STB_O: The upper limit of the expected semi-major axis of the habitable and stable planet's orbit;\
 type: I: Teff & G-band magnitude are known; II: only G-band magnitude is known; III: only Teff is known; IV: Teff & G-band magnitude are unknown;\
 ra & dec: coordinates, mainly at Ep=2015.0/2016.0 (from Gaia DR2 & DR3);\
 plx: parallax of stars, in mas;\
-e_plx: error of parallax, in mas\;
+e_plx: error of parallax, in mas;\
 GAIAmag: G-band magnitude;\
 e_GAIAmag: error of G-band magnitude;\
 pmRA: proper motion in RA direction;\
